@@ -1,0 +1,26 @@
+class Sharmada 
+{
+	public static void main(String[] args) 
+	{	
+		for (int h=2;h>=1;h-- )
+		{
+			
+			for (int g=2;g>=h;g--)
+			{
+				System.out.print(" * ");
+			}
+			System.out.println();
+		}
+		
+		for (int i=5;i>=1;i--)
+		{
+			for (int l=1;l<=(i-2);l++)
+			{
+				System.out.print(" * ");
+			}
+			System.out.println();
+		}
+	
+	}
+
+}
